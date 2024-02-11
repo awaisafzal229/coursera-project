@@ -1,0 +1,80 @@
+/* Navbar */
+.navbar {
+  background-color: #ffcd5a;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #333;
+}
+
+.navbar-toggle {
+  background-color: #333;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* Page Heading */
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Single Section */
+.container-fluid {
+  padding: 50px 0;
+}
+
+.section-content {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Items */
+.navbar-nav li a {
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  color: #555;
+}
+
+/* Section Heading */
+h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+/* Dummy Text */
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Additional Styling */
+@media (max-width: 767px) {
+  /* Adjustments for smaller devices */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .section-content {
+    padding: 20px;
+  }
+}
